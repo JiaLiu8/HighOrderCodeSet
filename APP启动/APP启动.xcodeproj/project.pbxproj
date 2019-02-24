@@ -15,6 +15,7 @@
 		5E9A5FB321E37FD200FB12BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A5FB221E37FD200FB12BD /* main.m */; };
 		5E9A5FBD21E37FD200FB12BD /* APP__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A5FBC21E37FD200FB12BD /* APP__Tests.m */; };
 		5E9A5FC821E37FD200FB12BD /* APP__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A5FC721E37FD200FB12BD /* APP__UITests.m */; };
+		5E9A5FD721E390A600FB12BD /* AppDelegate+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A5FD621E390A600FB12BD /* AppDelegate+EX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5E9A5FC321E37FD200FB12BD /* APP启动UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APP启动UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9A5FC721E37FD200FB12BD /* APP__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APP__UITests.m; sourceTree = "<group>"; };
 		5E9A5FC921E37FD200FB12BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9A5FD521E390A600FB12BD /* AppDelegate+EX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+EX.h"; sourceTree = "<group>"; };
+		5E9A5FD621E390A600FB12BD /* AppDelegate+EX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+EX.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				5E9A5FAE21E37FD200FB12BD /* LaunchScreen.storyboard */,
 				5E9A5FB121E37FD200FB12BD /* Info.plist */,
 				5E9A5FB221E37FD200FB12BD /* main.m */,
+				5E9A5FD521E390A600FB12BD /* AppDelegate+EX.h */,
+				5E9A5FD621E390A600FB12BD /* AppDelegate+EX.m */,
 			);
 			path = "APP启动";
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				5E9A5FA821E37FD100FB12BD /* ViewController.m in Sources */,
 				5E9A5FB321E37FD200FB12BD /* main.m in Sources */,
 				5E9A5FA521E37FD100FB12BD /* AppDelegate.m in Sources */,
+				5E9A5FD721E390A600FB12BD /* AppDelegate+EX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
