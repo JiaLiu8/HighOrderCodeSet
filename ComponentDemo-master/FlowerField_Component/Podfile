@@ -1,0 +1,22 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/JiaLiu8/FFSpecs.git'
+#source 'https://github.com/JiaLiu8/FFAPIsKit.git'
+
+use_frameworks!
+platform :ios, '8.0' 
+target ‘FlowerField’ do 
+
+pod 'MBProgressHUD'
+#pod 'AFNetworking'
+pod 'Masonry'
+pod 'YYWebImage'
+pod 'FMDB'
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'FFCategoryKit'
+pod 'FFAPIsKit'
+pod 'FFToolsKit'
+pod 'FFRouterKit'
+
+end
+
