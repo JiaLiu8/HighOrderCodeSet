@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface FFSpecialDetailController : UIViewController
-
+@property (nonatomic, copy) dispatch_block_t complete;
 @end

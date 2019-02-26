@@ -14,6 +14,7 @@
 		1FEA4F1D1D49B33C0043358F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEA4F1C1D49B33C0043358F /* CoreGraphics.framework */; };
 		5E892A722223CEE600210B56 /* FFRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E892A712223CEE600210B56 /* FFRouterManager.m */; };
 		5E892A752224008200210B56 /* FFModuleProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E892A742224008200210B56 /* FFModuleProtocolManager.m */; };
+		5E892A7D222567A100210B56 /* FFSpecialMoudleEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E892A7C222567A100210B56 /* FFSpecialMoudleEntry.m */; };
 		6C101F991F66898C003C0FB3 /* FFSpecialListReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C101F961F66898C003C0FB3 /* FFSpecialListReformer.m */; };
 		6C101F9A1F66898C003C0FB3 /* SpecialAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C101F981F66898C003C0FB3 /* SpecialAPIRequest.m */; };
 		6C32949A1F444B1A00A9FB2B /* FFNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3294951F444B1A00A9FB2B /* FFNavController.m */; };
@@ -57,6 +58,8 @@
 		5E892A742224008200210B56 /* FFModuleProtocolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFModuleProtocolManager.m; sourceTree = "<group>"; };
 		5E892A772224071700210B56 /* FFAuthorModuleEntryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFAuthorModuleEntryProtocol.h; sourceTree = "<group>"; };
 		5E892A7A2224078700210B56 /* FFSpecialMoudleEntryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFSpecialMoudleEntryProtocol.h; sourceTree = "<group>"; };
+		5E892A7B222567A100210B56 /* FFSpecialMoudleEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFSpecialMoudleEntry.h; sourceTree = "<group>"; };
+		5E892A7C222567A100210B56 /* FFSpecialMoudleEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFSpecialMoudleEntry.m; sourceTree = "<group>"; };
 		603E448B4705E98F851F72D2 /* Pods-FlowerField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlowerField/Pods-FlowerField.debug.xcconfig"; sourceTree = "<group>"; };
 		6C101F951F66898C003C0FB3 /* FFSpecialListReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFSpecialListReformer.h; sourceTree = "<group>"; };
 		6C101F961F66898C003C0FB3 /* FFSpecialListReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFSpecialListReformer.m; sourceTree = "<group>"; };
@@ -203,6 +206,8 @@
 			isa = PBXGroup;
 			children = (
 				5E892A7A2224078700210B56 /* FFSpecialMoudleEntryProtocol.h */,
+				5E892A7B222567A100210B56 /* FFSpecialMoudleEntry.h */,
+				5E892A7C222567A100210B56 /* FFSpecialMoudleEntry.m */,
 			);
 			path = moudle;
 			sourceTree = "<group>";
@@ -523,6 +528,7 @@
 				6C101F991F66898C003C0FB3 /* FFSpecialListReformer.m in Sources */,
 				6CE0067E1F6A640F00365640 /* UITableViewCell+FFAdd.m in Sources */,
 				6C32949C1F444B1A00A9FB2B /* FFTabBarController.m in Sources */,
+				5E892A7D222567A100210B56 /* FFSpecialMoudleEntry.m in Sources */,
 				6CE005EE1F67877B00365640 /* FFAuthorDetailController.m in Sources */,
 				1FCD560B1D363ACC007F5C78 /* AppDelegate.m in Sources */,
 				6CE006731F6A2C4E00365640 /* FFConst.m in Sources */,

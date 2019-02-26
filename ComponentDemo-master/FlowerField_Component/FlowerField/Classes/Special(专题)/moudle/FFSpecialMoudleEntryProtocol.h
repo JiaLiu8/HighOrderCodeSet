@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 
 @protocol FFSpecialMoudleEntryProtocol <NSObject>
 
-- ()
+- (UIViewController *)detailViewControllerblock:(dispatch_block_t)completeBlock;
 
 @end
 

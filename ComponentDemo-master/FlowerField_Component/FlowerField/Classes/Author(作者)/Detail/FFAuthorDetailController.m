@@ -8,6 +8,8 @@
 
 #import "FFAuthorDetailController.h"
 #import "MGJRouter.h"
+#import "FFModuleProtocolManager.h"
+#import "FFSpecialMoudleEntryProtocol.h"
 
 @interface FFAuthorDetailController ()
 
@@ -22,9 +24,15 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [MGJRouter openURL:@"jump://PushToSpecialDetail" withUserInfo:@{@"navigationVC" : self.navigationController} completion:^(id result) {
-        NSLog(@"it is complete");
+//    [MGJRouter openURL:@"jump://PushToSpecialDetail" withUserInfo:@{@"navigationVC" : self.navigationController} completion:^(id result) {
+//        NSLog(@"it is complete");
+//    }];
+    
+    id <FFSpecialMoudleEntryProtocol> entry = [FFModuleProtocolManager serviceProvideForProtocol:@protocol(FFSpecialMoudleEntryProtocol)];
+    UIViewController *vc = [entry detailViewControllerblock:^{
+        NSLog(@"block 回调来了");
     }];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

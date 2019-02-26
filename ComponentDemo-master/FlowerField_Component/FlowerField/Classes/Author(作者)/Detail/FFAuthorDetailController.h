@@ -10,4 +10,6 @@
 
 @interface FFAuthorDetailController : UIViewController
 
+
+
 @end

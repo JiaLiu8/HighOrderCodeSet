@@ -26,6 +26,13 @@
     [self.view addSubview:self.detailView];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    if (self.complete) {
+        self.complete();
+    }
+}
+
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     self.detailView.frame = self.view.frame;
